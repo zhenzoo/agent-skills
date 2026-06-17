@@ -1,6 +1,6 @@
 <div align="right"><a href="README.md"><b>English</b></a> · <a href="README.zh.md">中文</a></div>
 
-# agent-skills
+# skillzoo
 
 > Drop-in **skills & slash-commands for AI coding agents** (Claude Code, Codex, Kimi, GLM, …).
 > You don't install them by hand — you hand one prompt to your agent and it sets everything up.
@@ -13,11 +13,11 @@ A small, growing collection of agent capabilities I find genuinely useful, packa
 
 You do **not** need to know git. You need two things: **(1)** be signed in to GitHub, **(2)** paste one prompt to your agent.
 
-1. **Copy this repo's URL** — the green **`<> Code`** button at the top of this page → `HTTPS` → copy the `git clone https://github.com/zhenzoo/agent-skills.git` line. (Or just copy the URL from your browser's address bar.)
+1. **Copy this repo's URL** — the green **`<> Code`** button at the top of this page → `HTTPS` → copy the `git clone https://github.com/zhenzoo/skillzoo.git` line. (Or just copy the URL from your browser's address bar.)
 2. **Paste this whole prompt to your agent** (Claude Code / Codex / Kimi / GLM / Claude / …):
 
 ```text
-Clone https://github.com/zhenzoo/agent-skills.git
+Clone https://github.com/zhenzoo/skillzoo.git
 (I'm signed in to GitHub via the `gh` CLI — if I'm not, walk me through `gh auth login` first.)
 
 From that repo, install the `explain` command at the USER level of my agent — this is

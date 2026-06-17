@@ -1,4 +1,4 @@
-# agent-skills · registry（single source of truth）
+# skillzoo · registry（single source of truth）
 # 加一个 skill：放好文件 + 在这里加一条。无 build、无硬编码路径。
 # Add a skill: drop the file(s) + add one entry here. No build step, no hardcoded paths.
 

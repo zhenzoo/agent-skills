@@ -1,6 +1,6 @@
 <div align="right"><a href="README.md">English</a> · <a href="README.zh.md"><b>中文</b></a></div>
 
-# agent-skills
+# skillzoo
 
 > 给 **AI 编程智能体**（Claude Code、Codex、Kimi、GLM……）即插即用的 **skills 和斜杠命令**。
 > 你不用手动安装——把一段 prompt 丢给你的智能体，它自己全配好。
@@ -13,11 +13,11 @@
 
 你**不需要懂 git**。只要两件事：**①** 已登录 GitHub，**②** 把一段 prompt 粘给你的智能体。
 
-1. **复制本仓库地址** —— 本页顶部绿色 **`<> Code`** 按钮 → `HTTPS` → 复制 `git clone https://github.com/zhenzoo/agent-skills.git` 那一行。（或直接复制浏览器地址栏的 URL。）
+1. **复制本仓库地址** —— 本页顶部绿色 **`<> Code`** 按钮 → `HTTPS` → 复制 `git clone https://github.com/zhenzoo/skillzoo.git` 那一行。（或直接复制浏览器地址栏的 URL。）
 2. **把下面这整段 prompt 粘给你的智能体**（Claude Code / Codex / Kimi / GLM / Claude……）：
 
 ```text
-克隆 https://github.com/zhenzoo/agent-skills.git
+克隆 https://github.com/zhenzoo/skillzoo.git
 （我已用 gh CLI 登录 GitHub——如果没登录，先带我走一遍 `gh auth login`。）
 
 从这个仓库里，把 `explain` command 安装到我智能体的【用户级 / user level】——
