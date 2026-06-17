@@ -1,0 +1,11 @@
+# agent-skills · registry（single source of truth）
+# 加一个 skill：放好文件 + 在这里加一条。无 build、无硬编码路径。
+# Add a skill: drop the file(s) + add one entry here. No build step, no hardcoded paths.
+
+skills:
+  - id: explain
+    type: command                 # command（slash·手动 /explain）| skill（文件夹·agent 自动触发）
+    path: commands/explain.md
+    trigger: "/explain <term>"
+    summary_zh: "看实物式解释技术词/文件/概念 —— 类比 + 三类链接（官方/可视化/真实图片）+ 打开实物 + 逐窗引导。建立直觉，不堆理论。"
+    summary_en: "Explain a tech term/file/concept by SHOWING the real thing — analogy + 3 link types (official / interactive / real-image search) + opens the actual files + guided walkthrough. Builds intuition, not theory."
